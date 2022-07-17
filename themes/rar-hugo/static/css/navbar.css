@@ -1,0 +1,117 @@
+.navmenu {
+  display         : -webkit-flex;
+  display         : flex;
+  flex-direction  : row;
+  flex-wrap       : nowrap;
+  justify-content : flex-start;
+  padding         : 0;
+  font-size       : 20px;
+  border-bottom   : 2px solid #BF0D3E;
+  height          : 38px;
+  white-space     : nowrap;
+  gap: 0px;   
+}
+
+.navmenu > a {
+  display         : inline-flex;
+  padding         : 0 20px;
+  color           : white;
+  text-decoration : none;
+}
+
+.navmenu > .current {
+background-color:#BF0D3E;
+color:white;
+font-weight:bold;
+}
+
+.burger_flex {
+    margin-left: auto;
+    justify-content : flex-end;
+    z-index: 99;
+}
+
+.burger_btn {
+  background-color: #000000;
+  border-bottom   : 2px solid #BF0D3E;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: auto;
+  padding-bottom: auto;
+  height: 38px;
+  cursor: pointer;
+  display: none;
+}
+
+.burger_btn:hover {
+  font-weight:bold;
+  }
+
+.burger_btn_pressed {
+  background-color:#BF0D3E;
+  color:white;
+}
+
+/* RESPONSIVE MENU FLEXBOX, ON RIGHT */
+.resmenu_flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.resmenu {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: stretch;
+  position: relative;
+  z-index: 999;
+  color: white;
+  background-color: #000000;
+  height: 38px;
+  font-size: 20px;
+}
+
+.resmenu > a {
+  text-decoration: none;
+  color:white;
+  font-weight:bold;
+  background-color: #000000;
+  padding: 3px 16px;
+  border-right: 2px solid #BF0D3E;
+  border-left: 2px solid #BF0D3E;
+  border-bottom: 2px solid #BF0D3E;
+}
+
+
+.resmenu > a:hover {
+  background-color:#BF0D3E;
+  color:white;
+  font-weight:bold;
+  }
+
+.resmenu > .current {
+  display: none;
+  }
+
+
+  
+.hidden {
+  display: none;
+}
+
+/* SHOWS ONLY CURRENT TAB IN NAVBAR AND SHOWS BURGER MENU ON SMALL SCREENS */
+@media screen and (max-width: 600px) {
+  .navmenu a:not(a.current) {display: none;}
+  .burger_btn {
+    display: inline-block;
+  }
+}
+
+/* HIDE RESMENU IF OPEN WHEN CHANGING TO LARGE SCREEN */
+@media screen and (min-width: 600px) {
+  #resmenu_id {
+    display: none;
+  }
+}

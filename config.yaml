@@ -1,0 +1,41 @@
+baseURL: https://rar-hugo.pages.dev
+languageCode: en-us
+title: RAR Home Inspections
+theme: rar-hugo
+copyright: RAR of Texas 2022
+paginate: 3
+
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+      
+params:
+  favicon: /logo/RAR-HI_LOGO_SQUARE.svg
+  brandlogo_dark: /logo/RAR-HI_LOGO_LONG.png
+  description: RAR Home Inspections - Rosenberg, TX
+
+  
+menu:
+    nav:
+    - identifier: home
+      name: Home
+      url: /
+      weight: 1
+    - identifier: schedule
+      name: Schedule
+      url: /schedule/
+      weight: 2
+    - identifier: contact
+      name: Contact
+      url: /contact/
+      weight: 3
+    - identifier: about
+      name: About
+      url: /about/
+      weight: 5
+    - identifier: blog
+      name: Blog
+      url: /blog/
+      weight: 4

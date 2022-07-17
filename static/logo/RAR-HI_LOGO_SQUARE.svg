@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="35.921879"
+   height="30.66992"
+   viewBox="0 0 35.921879 30.66992"
+   version="1.1"
+   id="SVGRoot"
+   sodipodi:docname="RAR-HI_LOGO_SQUARE_BLACK.svg"
+   inkscape:version="1.1.2 (b8e25be8, 2022-02-05)"
+   inkscape:export-filename="/Users/ryanroth/Nextcloud/Documents/RAR of Texas/Logo/RAR-HI_LOGO_SQUARE_BLACK_2.png"
+   inkscape:export-xdpi="1589.5542"
+   inkscape:export-ydpi="1589.5542"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview57"
+     pagecolor="#000000"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="true"
+     inkscape:document-units="px"
+     showgrid="false"
+     inkscape:zoom="10.232441"
+     inkscape:cx="20.474098"
+     inkscape:cy="12.558098"
+     inkscape:window-width="1366"
+     inkscape:window-height="715"
+     inkscape:window-x="0"
+     inkscape:window-y="25"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     inkscape:snap-bbox="true"
+     inkscape:snap-text-baseline="true"
+     inkscape:snap-grids="false"
+     showguides="false"
+     inkscape:guide-bbox="true"
+     inkscape:bbox-paths="true"
+     inkscape:bbox-nodes="true"
+     inkscape:snap-bbox-edge-midpoints="true"
+     inkscape:snap-bbox-midpoints="true"
+     objecttolerance="6.7"
+     inkscape:object-nodes="false"
+     inkscape:snap-others="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0">
+    <inkscape:grid
+       type="xygrid"
+       id="grid63"
+       spacingx="0.001"
+       spacingy="0.001"
+       empspacing="1"
+       empcolor="#3fffa9"
+       empopacity="0.25098039"
+       originx="-0.53906156"
+       originy="-3.1650395" />
+    <sodipodi:guide
+       position="16,16"
+       orientation="0,1"
+       id="guide164504"
+       inkscape:label=""
+       inkscape:locked="true"
+       inkscape:color="rgb(0,0,255)" />
+    <sodipodi:guide
+       position="0,28.16992"
+       orientation="0,1"
+       id="guide115"
+       inkscape:label=""
+       inkscape:locked="false"
+       inkscape:color="rgb(0,0,255)" />
+    <sodipodi:guide
+       position="2.5,30.66992"
+       orientation="-1,0"
+       id="guide135"
+       inkscape:label=""
+       inkscape:locked="false"
+       inkscape:color="rgb(0,0,255)" />
+  </sodipodi:namedview>
+  <defs
+     id="defs52">
+    <symbol
+       id="icon-home">
+      <title
+         id="title121083">home</title>
+      <path
+         d="M 28,18 16,4 4,18 h 3 v 10 h 6 v -8 h 6 v 8 h 6 V 18 Z"
+         id="path121085" />
+    </symbol>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-0.53906156,-3.1650395)">
+    <path
+       id="path148899"
+       style="font-size:20px;line-height:1.25;font-family:Arimo;-inkscape-font-specification:'Arimo, @wght=700';font-variation-settings:'wght' 700;fill:#bf0d3e;fill-opacity:1"
+       d="M 3.0390616,5.6650396 V 19.424805 H 5.919921 v -5.224608 h 3.3789065 l 3.1933585,5.224608 h 0.01172 l -1.767577,5.029297 h 3.259765 l 1.041015,-3.400391 h 5.199219 l 1.029297,3.361329 v 6.919921 h 2.88086 v -5.224609 h 3.378906 l 3.193359,5.224609 h 3.242188 l -3.720703,-5.78125 c 0.930989,-0.221354 1.669921,-0.680339 2.216796,-1.376953 0.546875,-0.703125 0.820313,-1.536458 0.820313,-2.5 0,-1.321614 -0.445964,-2.333984 -1.337891,-3.037109 -0.891927,-0.709635 -2.158203,-1.064452 -3.798828,-1.064452 h -6.03125 l -2.632814,-7.462891 h -3.699219 l -2.132813,6.066406 -1.630859,-2.535155 c 0.930989,-0.221355 1.669922,-0.680339 2.216797,-1.376954 0.546875,-0.703125 0.820312,-1.536458 0.820312,-2.5000004 0,-1.3216151 -0.445963,-2.3339849 -1.33789,-3.0371099 C 12.820961,6.0198573 11.554685,5.6650396 9.9140615,5.6650396 Z M 5.919921,7.9013677 h 3.6914065 c 0.8463525,0 1.4811185,0.1660156 1.9042955,0.4980469 0.423177,0.3320312 0.634765,0.826823 0.634765,1.484375 0,0.6575534 -0.208333,1.1686204 -0.625,1.5332044 -0.416666,0.364583 -1.028645,0.546875 -1.8359355,0.546875 H 5.919921 Z m 11.671874,3.8457043 2.972656,4.478514 h -0.74414 v 3.199219 h -1.486328 v -2.560546 h -1.484376 v 2.560546 h -1.486328 v -3.199218 h -0.74414 z m 6.554688,8.064452 h 3.691406 c 0.846354,0 1.48112,0.166016 1.904297,0.498047 0.423177,0.332031 0.634765,0.826823 0.634765,1.484375 0,0.657552 -0.208333,1.16862 -0.625,1.533203 -0.416666,0.364583 -1.028645,0.546875 -1.835937,0.546875 h -3.769531 z"
+       inkscape:export-filename="/Users/ryanroth/Nextcloud/Documents/RAR of Texas/Logo/RAR-HI_LOGO_SQUARE_BLACK.png"
+       inkscape:export-xdpi="1589.5542"
+       inkscape:export-ydpi="1589.5542" />
+  </g>
+</svg>

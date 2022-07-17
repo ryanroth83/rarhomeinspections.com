@@ -1,0 +1,48 @@
+<link rel="stylesheet" href="{{ $.Site.BaseURL }}/css/navbar.css"/>
+
+<nav>
+<!-- REGULAR SITE TOP NAV BAR -->
+  <div class="navmenu">
+    {{ $inNav := 0 }}
+    {{ $currentPage := .RelPermalink }}
+    {{ if .Site.Menus.nav }}
+      {{ range sort .Site.Menus.nav "Weight" "asc" }}
+      <a href="{{ .URL }}" class="{{ if eq $currentPage .URL }} {{ $inNav = 1 }}current{{ end}}">{{ .Name }}</a>
+      {{ end }}
+      {{ if eq $inNav 0 }}
+        <a href="javascript:void(0);" class="current">{{ .Title }}</a>
+      {{ end }}
+    {{ end }}
+    <div class="burger_flex">
+      <div class="burger_btn" id="burger_btn_id">
+        <i onclick="menuFunction()" class="fa-solid fa-bars" id="burger_icon"></i>
+      </div>
+    </div>
+  </div>
+   <!-- SMALL SCREEN DROPDOWN HAMBURGER NAV MENU -->
+    <span class="resmenu hidden" id="resmenu_id">
+      {{ $inNav := 0 }}
+      {{ $currentPage := .RelPermalink }}
+      {{ if .Site.Menus.nav }}
+        {{ range sort .Site.Menus.nav "Weight" "asc" }}
+        <a href="{{ .URL }}" class="{{ if eq $currentPage .URL }} {{ $inNav = 1 }}current{{ end}}">{{ .Name }}</a>
+        {{ end }}
+        {{ if eq $inNav 0 }}
+          <a href="javascript:void(0);" class="current">{{ .Title }}</a>
+        {{ end }}
+      {{ end }}
+    </span>
+</nav>
+
+<script>
+  function menuFunction() {
+    var resmenu = document.getElementById("resmenu_id");
+    resmenu.classList.toggle("hidden");
+    
+    var burger = document.getElementById("burger_btn_id");
+    burger.classList.toggle("burger_btn_pressed");
+
+    var icon = document.getElementById("burger_icon");
+    icon.classList.toggle("fa-x");
+  }
+</script>
