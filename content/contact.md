@@ -4,4 +4,5 @@ date: 2022-05-14T20:11:40-05:00
 draft: false
 ---
 
-[Give Me A Call - Phone](tel:+8329331111)
+[Call Me](tel:+8329331111)
+[Text Me](sms:+8329331111)
