@@ -7,6 +7,5 @@ draft: false
 # 832-933-1111
 
 <a href=“tel:+8329331111>
-
-<i class=“fa-duotone fa-circle-phone”></i>
+<i class=“fa-solid fa-circle-phone”></i>
 </a>
