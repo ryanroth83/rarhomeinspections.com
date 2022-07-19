@@ -11,3 +11,5 @@ draft: false
 <div>
 <i class=“fas” “fa-phone”></i>
 </div>
+
+<p><a href=“tel:+4733378901”>+47 333 78 901</a></p>
