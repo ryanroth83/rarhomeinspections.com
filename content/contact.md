@@ -6,10 +6,10 @@ draft: false
 
 <div>
 <a href=“tel:+8329331111”>
-<i class=“fa-solid fa-circle-phone”></i>
+<i class=“fa-solid” “fa-circle-phone”></i>
 </a>
 </div>
 
 <div>
-<i class=“fas fa-phone”></i>
+<i class=“fas” “fa-phone”></i>
 </div>
