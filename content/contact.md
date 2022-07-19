@@ -5,9 +5,7 @@ draft: false
 ---
 
 <div>
-<a href=“tel:+8329331111”>
-<i class=“fa-solid” “fa-circle-phone”></i>
-</a>
+<a href=“tel:+8329331111”>Call Me</a>
 </div>
 
 <div>
