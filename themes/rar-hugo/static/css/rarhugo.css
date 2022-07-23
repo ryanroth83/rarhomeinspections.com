@@ -297,3 +297,9 @@ pre {
   flex-basis: 200px;
   
 }
+
+.contact-link {
+    text-decoration: none;
+    color  :#3C3B6E
+
+}
