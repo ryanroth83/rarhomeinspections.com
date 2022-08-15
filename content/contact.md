@@ -21,3 +21,4 @@ draft: false
 <div class=“contact-link”>
 <a href="mailto:ryan@rarhomeinspections.com"><i class=“fa-solid fa-envelope”></i> ryan@rarhomeinspections.com</a>
 </div>
+<i class=“fa-solid fa-envelope”></i>
