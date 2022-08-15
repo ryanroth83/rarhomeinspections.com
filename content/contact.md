@@ -17,5 +17,5 @@ draft: false
 <br>
 <div>
 <a class="contact-link" href="mailto:ryan@rarhomeinspections.com">
-  <i class=“fa-regular fa-envelope”></i> ryan@rarhomeinspections.com</a>
+  <i class=“fa-solid fa-envelope”></i> ryan@rarhomeinspections.com</a>
 </div>
