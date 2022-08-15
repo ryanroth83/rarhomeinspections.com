@@ -11,18 +11,15 @@ draft: false
 </div>
 
 <br>
-
-<div>
-<a class="contact-link" href="tel:+1 (832) 933-1111"><i class="fa-solid fa-square-phone"></i> (832) 933 - 1111</a>
-</div>
+<i class=“fa-solid fa-square-phone”></i>
 
 <br>
 
 <div class=“contact-link”>
 <a href="mailto:ryan@rarhomeinspections.com"><i class=“fa-solid fa-envelope”></i> ryan@rarhomeinspections.com</a>
 </div>
-<i class=“fa-solid fa-envelope”></i>
 
-<i class=“fa-regular fa-envelope”></i>
-<i class=“fa-regular fa-face-meh”></i>
-<i class=“fa-solid fa-square-phone”></i>
+
+<div>
+<a class=“contact-link” href=“sms:+1 (832) 933-1111”><i class=“fa-solid fa-comment-sms”></i> (832) 933 - 1111</a>
+</div>
