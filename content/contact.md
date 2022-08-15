@@ -25,3 +25,4 @@ draft: false
 
 <i class=“fa-regular fa-envelope”></i>
 <i class=“fa-regular fa-face-meh”></i>
+<i class=“fa-solid fa-square-phone”></i>
