@@ -5,5 +5,5 @@ draft: false
 ---
 
 
-### "Your Honest & Unbiases Inspector"
+### "Your Honest & Unbiased Inspector"
 # Coming Soon!
