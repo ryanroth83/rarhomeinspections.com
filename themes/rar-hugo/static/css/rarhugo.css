@@ -314,8 +314,14 @@ a:link {
 
 .flex-container {
   display: flex;
-  flex-wrap: nowrap;
   background-color: DodgerBlue;
-} 
+}
+
+.flex-container > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+}
 
 

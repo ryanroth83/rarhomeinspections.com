@@ -29,3 +29,9 @@ draft: false
 <div> 
   <a href="mailto:ryan@rarhomeinspections.com">Email:&nbsp;ryan@rarhomeinspections.com</a>
 </div>
+
+<div class="flex-container">
+  <div>1</div>
+  <div>2</div>
+  <div>3</div>  
+</div>
