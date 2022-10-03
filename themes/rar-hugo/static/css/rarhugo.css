@@ -314,7 +314,7 @@ a:link {
 
 .flex-container {
   display: flex;
-  background-color: DodgerBlue;
+  background-color: Blue;
 }
 
 .flex-container > div {
