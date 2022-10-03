@@ -298,8 +298,6 @@ pre {
   
 }
 
-.contact-link {
+a:link {
     text-decoration: none;
-    color  :#BF0D3E
-
 }
