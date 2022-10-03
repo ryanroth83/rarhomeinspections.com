@@ -7,15 +7,21 @@ draft: false
 <div class="flex-container">
   
   <div>
-    <a href="tel:+1 (832)933-1111"><i class="fa-solid fa-phone fa-5x" style="color:green;"></i>
+    <a href="tel:+1 (832)933-1111">
+      <i class="fa-solid fa-phone fa-5x" style="color:green;"></i>
+    </a>
   </div>
   
   <div>
-    <a href="sms:+1 (832)933-1111"><i class="fa-solid fa-comment-sms fa-5x" style="color:blue;"></i>
+    <a href="sms:+1 (832)933-1111">
+      <i class="fa-solid fa-comment-sms fa-5x" style="color:blue;"></i>
+    </a>
   </div>
   
   <div>
-    <a href="mailto:ryan@rarhomeinspections.com"><i class="fa-solid fa-at fa-5x" style="color:white"></i>
+    <a href="mailto:ryan@rarhomeinspections.com">
+      <i class="fa-solid fa-at fa-5x" style="color:white"></i>
+    </a>
   </div>
   
 </div>
