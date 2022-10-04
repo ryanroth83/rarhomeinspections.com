@@ -4,8 +4,9 @@ date: 2022-05-14T20:11:40-05:00
 draft: false
 ---
 
-<div class="flex-container">
-  
+
+<br>
+<div class="flex-contact">
   <div>
     <a href="tel:+1 (832)933-1111">
       <i class="fa-solid fa-phone fa-5x" style="color:green;"></i>
@@ -34,10 +35,4 @@ draft: false
 
 <div> 
   <a href="mailto:ryan@rarhomeinspections.com">Email:&nbsp;ryan@rarhomeinspections.com</a>
-</div>
-
-<div class="flex-container">
-  <div>1</div>
-  <div>2</div>
-  <div>3</div>  
 </div>

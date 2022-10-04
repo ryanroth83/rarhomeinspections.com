@@ -303,6 +303,7 @@ pre {
 }
 
 .flex-contact {
+  display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   flex-wrap: nowrap;
