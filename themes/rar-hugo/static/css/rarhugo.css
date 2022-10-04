@@ -285,7 +285,7 @@ pre {
     flex: 1;
   }
  
-  .flextest-container {
+  .flex-contact {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
