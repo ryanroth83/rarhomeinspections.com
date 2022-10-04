@@ -284,45 +284,20 @@ pre {
 .Site-content {
     flex: 1;
   }
-  
-.flex-row {
-  display: flex;
-  flex-direction: row;
-}
-
-.flex-column {
-  display: flex;
-  flex-direction: column;
-}
  
-.flextest-item {
-  border: 2px solid #999;
-  text-align: center;
-  flex-basis: 200px;
+  .flextest-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
   
-}
-
-.flex-contact {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  flex-wrap: nowrap;
-} 
+  .flextest-item {
+    border: 2px solid #999;
+    text-align: center;
+    flex-basis: 200px;
+    
+  }
   
-a:link {
-  text-decoration: none;
-}
-
-.flex-container {
-  display: flex;
-  background-color: Blue;
-}
-
-.flex-container > div {
-  background-color: #f1f1f1;
-  margin: 10px;
-  padding: 20px;
-  font-size: 30px;
-}
-
-
+  a:link {
+      text-decoration: none;
+  }
