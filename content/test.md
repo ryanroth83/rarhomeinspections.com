@@ -1,7 +1,7 @@
 ---
 title: "Test"
 date: 2022-10-03T20:32:36-05:00
-draft: true
+draft: false
 ---
 
 <br>
