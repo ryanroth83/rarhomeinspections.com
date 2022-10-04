@@ -5,6 +5,7 @@ draft: false
 ---
 
 <br>
+<div>
 <div class="flex-contact">
   <div>
     <a href="tel:+1 (832)933-1111">
@@ -24,6 +25,7 @@ draft: false
     </a>
   </div>
   
+</div>
 </div>
 
 <br>
