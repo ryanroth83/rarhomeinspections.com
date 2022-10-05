@@ -290,23 +290,11 @@ pre {
     flex-direction: row;
     justify-content: space-evenly;
   }
-  
-  .flextest-item {
-    border: 2px solid #999;
+
+  .flex-contact > * {
     text-align: center;
-    flex-basis: 200px;
-    
   }
   
   a:link {
       text-decoration: none;
   }
-  
-  .contact-button {
-    -webkit-appearance: button;
-    -moz-appearance: button;
-    appearance: button;
-
-    text-decoration: none;
-    color: initial;
-}
