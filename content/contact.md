@@ -37,3 +37,7 @@ draft: false
 <div> 
   <a href="mailto:ryan@rarhomeinspections.com">Email:&nbsp;ryan@rarhomeinspections.com</a>
 </div>
+
+<div>
+  <a href="/contact.vcf" class="button">Add To Contacts</a>
+</div>
