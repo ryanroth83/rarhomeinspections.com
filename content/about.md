@@ -30,6 +30,6 @@ draft: false
       <img src="/certs/roof.png" alt="Roof Inspector" height="150">
   </div>
   <div>
-      <img src="/certs/roof_data.png" alt="Roof Data Technician" height="150">
+      <img src="/certs/drone.png" alt="Drone Certified" height="150">
   </div>
 </div>
