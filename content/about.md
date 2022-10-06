@@ -9,7 +9,10 @@ draft: false
     <img src="/certs/buy_back.png" alt="InterNACHI Buy Back Guarantee" height="200" width=“200”>
   </div>
   <div>
-      <img src="/certs/honor.png" alt="InterNACHI Honor Guarantee" height="150">
+      <img src="/certs/honor.png" alt="InterNACHI Honor Guarantee" height="100">
+      <div>
+        <img src=“/certs/honor.png” alt=“InterNACHI Honor Guarantee” height=“100”>
+      <\div>  
   </div>
 </div>
 <div class="line-dotted"></div>
