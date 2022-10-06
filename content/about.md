@@ -12,7 +12,7 @@ draft: false
       <img src="/certs/honor.png" alt="InterNACHI Honor Guarantee" height="100">
       <div>
         <img src=“/certs/honor.png” alt=“InterNACHI Honor Guarantee” height=“100”>
-      <\div>  
+      </div>  
   </div>
 </div>
 <div class="line-dotted"></div>
