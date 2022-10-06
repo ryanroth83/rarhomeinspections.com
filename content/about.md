@@ -3,9 +3,10 @@ title: "About"
 date: 2022-05-14T20:11:05-05:00
 draft: false
 ---
+<br>
 <div class="flex-contact">
   <div>
-    <img src="/certs/buy_back.png" alt="InterNACHI Buy Back Guarantee" height=210>
+    <img src="/certs/buy_back.png" alt="InterNACHI Buy Back Guarantee" height=225>
   </div>
   <div>
     <div>
