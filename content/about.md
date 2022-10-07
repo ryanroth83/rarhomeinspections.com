@@ -18,7 +18,7 @@ draft: false
   </div>
 </div>
 
-<div class="line-dotted"></div>
+
 <div class="flex-contact">
   <div>
     <img src="/certs/internachi.png" alt="InterNACHI" height="200">
