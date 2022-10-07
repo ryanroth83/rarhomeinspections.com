@@ -31,9 +31,9 @@ menu:
       name: Contact
       url: /contact/
       weight: 3
-    - identifier: about
-      name: About
-      url: /about/
+    - identifier: Credentials
+      name: Credentials
+      url: /Credentials/
       weight: 5
     - identifier: blog
       name: Blog
