@@ -6,7 +6,7 @@ draft: false
 <br>
 <div class="flex-contact">
   <div>
-    <img src="/certs/buy_back.png" alt="InterNACHI Buy Back Guarantee" height=225>
+    <img src="/certs/buy_back.png" alt="InterNACHI Buy Back Guarantee" height=200>
   </div>
   <div>
     <div>
