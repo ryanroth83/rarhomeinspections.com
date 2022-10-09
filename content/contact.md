@@ -53,3 +53,5 @@ draft: false
 <iframe
   src="https://www.nachi.org/certified-inspectors/call-me/popup?id=59174942&use_company=1&popup=0">
 </iframe>
+
+<a href=“https://www.nachi.org/certified-inspectors/call-me/popup?id=59174942&use_company=0” target=“callMeWin” onclick=“window.open(this.getAttribute(‘href’) + ‘&popup=1’, this.getAttribute(‘target’), ‘alwaysRaised=yes, dependent=yes, directories=no, location=no,  menubar=no, resizable=yes, statusbar=no, scrollbars=yes, toolbar=no, width=400, height=300, left=‘ + ((screen.availWidth - 12 - 400) / 2) + ‘, top=‘ + (screen.availHeight - 48 - 300) / 2); return false”><img src=“https://www.nachi.org/images/buttons/nachi_call_button_25.gif” alt=“Have me call you.” border=“0” /></a>
