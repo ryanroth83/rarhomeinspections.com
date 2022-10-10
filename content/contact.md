@@ -33,10 +33,10 @@ draft: false
   </div>
 </div>
  <a href="mailto:ryan@rarhomeinspections.com">
- <h3 style="text-align:center;font-size: 4vw;">EMAIL: ryan@rarhomeinspections.com</h3>
+ <h4 style="text-align:center">EMAIL: ryan@rarhomeinspections.com</h4>
  </a>
  <a href="tel:+1 (832)933-1111">
- <h3 style="text-align:center;font-size: 4vw;">PHONE (CALL/TEXT): (832) 933-1111</h3>
+ <h4 style="text-align:center">PHONE (CALL/TEXT): (832) 933-1111</h4>
  </a>
 
 <div class="container">
