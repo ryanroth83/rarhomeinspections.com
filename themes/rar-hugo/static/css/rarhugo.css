@@ -298,3 +298,9 @@ pre {
   a:link {
       text-decoration: none;
   }
+
+  .flex-message {
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+  }

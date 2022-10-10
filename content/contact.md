@@ -29,7 +29,7 @@ draft: false
   </div>
 
 <div>
-  <a href="/contact.vcf">
+  <a href="/rarhomeinspections.vcf">
     <i class="fa-solid fa-address-card fa-5x" style="color:grey"></i>
     <p>Add Me</p>
   </a>
@@ -50,8 +50,23 @@ draft: false
   </a>
 </div>
 
-<iframe
-  src="https://www.nachi.org/certified-inspectors/call-me/popup?id=59174942&use_company=1&popup=0">
-</iframe>
 
-<a href=“https://www.nachi.org/certified-inspectors/call-me/popup?id=59174942&use_company=0” target=“callMeWin” onclick=“window.open(this.getAttribute(‘href’) + ‘&popup=1’, this.getAttribute(‘target’), ‘alwaysRaised=yes, dependent=yes, directories=no, location=no,  menubar=no, resizable=yes, statusbar=no, scrollbars=yes, toolbar=no, width=400, height=300, left=‘ + ((screen.availWidth - 12 - 400) / 2) + ‘, top=‘ + (screen.availHeight - 48 - 300) / 2); return false”><img src=“https://www.nachi.org/images/buttons/nachi_call_button_25.gif” alt=“Have me call you.” border=“0” /></a>
+<form action="https://ryan@rarhomeinspections.com" method="POST">
+  <br>
+  <h4>Send me a message.</h4>
+    <input type="text" name="name" placeholder="Full Name" size="25" required>
+  </div>
+  <span>
+    <input type="tel" name="phone" placeholder="Phone Number" size="25" required>
+  </span>
+  <div>
+    <input type="email" name="email" placeholder="Email Address" size="25" required>
+  </div>
+  <br>
+  <div>
+    <textarea placeholder="Your Message" class="form-control" name="message" rows="10" cols="21" required></textarea>
+  </div>
+  <div>
+    <button type="submit">Send</button>
+  </div>
+</form>
