@@ -39,12 +39,8 @@ draft: false
     <form action="https://formsubmit.co/ryan@rarhomeinspections.com" method="POST">
       <ul class="flex-outer">
         <li>
-          <label for="first-name">First Name</label>
-          <input type="text" id="first-name" name="First Name" placeholder="Enter your first name here">
-        </li>
-        <li>
-          <label for="last-name">Last Name</label>
-          <input type="text" id="last-name" name="Last Name" placeholder="Enter your last name here">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="Name" placeholder="Enter your name here">
         </li>
         <li>
           <label for="email">Email</label>
@@ -52,7 +48,7 @@ draft: false
         </li>
         <li>
           <label for="phone">Phone</label>
-          <input type="tel" id="phone" name="Phone Number" placeholder="Enter your phone here">
+          <input type="tel" id="phone" name="Phone" placeholder="Enter your phone here">
         </li>
         <li>
           <label for="message">Message</label>
@@ -60,7 +56,8 @@ draft: false
         </li>
         <li>
           <label for="prefferd">Prefferd Contact Method:</label>
-          <select name="prefferd" id="prefferd">
+          <select name="Prefferd" id="prefferd">
+          <option value="any">Any</option>
           <option value="call">Call</option>
           <option value="text">Text</option>
           <option value="email">Email</option>
