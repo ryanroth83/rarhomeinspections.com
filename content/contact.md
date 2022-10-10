@@ -58,23 +58,14 @@ draft: false
           <label for="message">Message</label>
           <textarea rows="6" id="message" name="Message" placeholder="Enter your message here"></textarea>
         </li>
-        <h4 class="flex-inner" >PREFFERD CONTACT METHOD </h4>
         <li>
-          <ul class="flex-inner">
-            <li>
-              <input type="checkbox" id="call" name="Call"> 
-              <label for="call">Call</label>
-            </li>
-            <li>
-              <input type="checkbox" id="text" name="Text">
-              <label for="text">Text</label>
-            </li>
-            <li>
-              <input type="checkbox" id="email" name="Email">
-              <label for="email">Email</label>
-            </li>
-          </ul>
+          <label for="prefferd">Prefferd Contact Method:</label>
+          <select name="prefferd" id="prefferd">
+          <option value="call">Call</option>
+          <option value="text">Text</option>
+          <option value="email">Email</option>
         </li>
+  </select>
         <li>
           <button type="submit">Submit</button>
         </li>
