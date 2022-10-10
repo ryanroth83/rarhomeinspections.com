@@ -37,6 +37,9 @@ draft: false
 <h2 class="flex-inner">SEND A MESSAGE</h2>
 <div class="container">
     <form action="https://formsubmit.co/ryan@rarhomeinspections.com" method="POST">
+      <input type="hidden" name="_subject" value="Message from contact page.">
+      <input type="hidden" name="_captcha" value="false">
+      <input type="hidden" name="_template" value="box">
       <ul class="flex-outer">
         <li>
           <label for="name">Name</label>
