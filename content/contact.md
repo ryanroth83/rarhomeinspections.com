@@ -20,7 +20,7 @@ draft: false
     </div>
     <div>
       <a href="mailto:ryan@rarhomeinspections.com">
-        <i class="fa-solid fa-at fa-4x" style="color:ffbd02"></i>
+        <i class="fa-solid fa-at fa-4x" style="color:#ffbd02"></i>
         <p>Email Me</p>
       </a>
     </div>
