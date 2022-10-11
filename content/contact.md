@@ -32,20 +32,13 @@ draft: false
     </div>
   </div>
 </div>
- <a href="mailto:ryan@rarhomeinspections.com">
- <h4 style="text-align:center">EMAIL: ryan@rarhomeinspections.com</h4>
- </a>
- <a href="tel:+1 (832)933-1111">
- <h4 style="text-align:center">PHONE (CALL/TEXT): (832) 933-1111</h4>
- </a>
-
 <div class="container">
     <form action="https://formsubmit.co/ryan@rarhomeinspections.com" method="POST">
-      <h2 style="text-align: center">MESSAGE ME</h2>
       <input type="hidden" name="_subject" value="Message from contact page.">
       <input type="hidden" name="_captcha" value="false">
       <input type="hidden" name="_template" value="box">
       <ul class="flex-outer">
+        <h2 style="text-align: center; text-transform: capitalize">Send me a message</h2>
         <li>
           <label for="name">Name</label>
           <input type="text" id="name" name="Name" placeholder="Enter your name here" required>
@@ -78,3 +71,11 @@ draft: false
       </ul>
     </form>
 </div> 
+<div>
+  <a href="mailto:ryan@rarhomeinspections.com">
+    <h4 style="text-align:center">Email: ryan@rarhomeinspections.com</h4>
+  </a>
+  <a href="tel:+1 (832)933-1111">
+    <h4 style="text-align:center">Phone (Call/Text): 832-933-1111</h4>
+  </a>
+</div>
