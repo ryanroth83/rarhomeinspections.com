@@ -8,19 +8,19 @@ draft: false
   <div class="flex-contact">
     <div>
       <a href="tel:+1 (832)933-1111">
-        <i class="fa-solid fa-phone fa-4x" style="color:green;"></i>
+        <i class="fa-solid fa-phone fa-4x" style="color:MediumSeaGreen;"></i>
         <p>Call Me</p>
       </a>
     </div>
     <div>
       <a href="sms:+1 (832)933-1111">
-        <i class="fa-solid fa-comment-sms fa-4x" style="color:blue;"></i>
+        <i class="fa-solid fa-comment-dots fa-4x" style="color:blue;"></i>
         <p>Text Me</p>
       </a>
     </div>
     <div>
       <a href="mailto:ryan@rarhomeinspections.com">
-        <i class="fa-solid fa-at fa-4x" style="color:grey"></i>
+        <i class="fa-solid fa-at fa-4x" style="color:tomato"></i>
         <p>Email Me</p>
       </a>
     </div>
