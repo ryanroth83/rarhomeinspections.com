@@ -8,13 +8,13 @@ draft: false
   <div class="flex-contact">
     <div>
       <a href="tel:+1 (832)933-1111">
-        <i class="fa-solid fa-phone fa-5x" style="color:#32c95a;"></i>
+        <i class="fa-solid fa-phone fa-4x" style="color:#32c95a;"></i>
         <p>Call Me</p>
       </a>
     </div>
     <div>
       <a href="sms:+1 (832)933-1111">
-        <i class="fa-solid fa-comment-sms fa-5x" style="color:#2790ff;"></i>
+        <i class="fa-solid fa-comment-sms fa-4x" style="color:#2790ff;"></i>
         <p>Text Me</p>
       </a>
     </div>
