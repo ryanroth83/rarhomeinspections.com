@@ -73,9 +73,9 @@ draft: false
 </div> 
 <div>
   <a href="mailto:ryan@rarhomeinspections.com">
-    <h4 style="text-align:center">Email: ryan@rarhomeinspections.com</h4>
+    <h4 style="text-align:center;color:#0A3161;font-size:4vw;">Email: ryan@rarhomeinspections.com</h4>
   </a>
   <a href="tel:+1 (832)933-1111">
-    <h4 style="text-align:center">Phone (Call/Text): 832-933-1111</h4>
+    <h4 style="text-align:center;color:#0A3161;font-size:4vw;">Phone (Call/Text): 832-933-1111</h4>
   </a>
 </div>
