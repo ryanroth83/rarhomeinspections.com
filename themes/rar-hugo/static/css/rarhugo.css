@@ -304,3 +304,13 @@ pre {
     flex-direction: column;
     justify-content: stretch;
   }
+
+  .flex-credentials {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+  .flex-credentials > * {
+    text-align: center;
+  }
