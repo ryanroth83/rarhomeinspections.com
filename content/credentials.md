@@ -16,8 +16,6 @@ draft: false
   </div>
 </div>
 
-
-<br>
 <div class="flex-contact">
   <div>
     <img src="/certs/residential.png" alt="Residential Property Inspector" style="width:15vw;">
