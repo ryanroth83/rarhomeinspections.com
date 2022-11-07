@@ -14,6 +14,7 @@ markup:
 params:
   favicon: /logo/RAR-HI_LOGO_SQUARE.svg
   brandlogo_dark: /logo/RAR-HI_LOGO_LONG.png
+  right_logo: /logo/RAR-HI-QR_600.png
   description: RAR Home Inspections - Rosenberg, TX
 
   
