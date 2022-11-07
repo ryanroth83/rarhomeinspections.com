@@ -38,7 +38,7 @@ draft: false
       <input type="hidden" name="_captcha" value="false">
       <input type="hidden" name="_template" value="box">
       <ul class="flex-outer">
-        <h2 style="text-align: center; text-transform: capitalize">Send me a message</h2>
+        <h2 class="contact_text">Send Me A Message</h2>
         <li>
           <label for="name">Name</label>
           <input type="text" id="name" name="Name" placeholder="Enter your name here" required>
@@ -73,9 +73,9 @@ draft: false
 </div> 
 <div>
   <a href="mailto:ryan@rarhomeinspections.com">
-    <h4 style="text-align:center;color:#BF0D3E;font-size:4vw;">Email: ryan@rarhomeinspections.com</h4>
+    <h4 class="contact_text">Email: ryan@rarhomeinspections.com</h4>
   </a>
   <a href="tel:+1 (832)933-1111">
-    <h4 style="text-align:center;color:#BF0D3E;font-size:4vw;">Phone (Call/Text): 832-933-1111</h4>
+    <h4 class="contact_text">Phone (Call/Text): 832-933-1111</h4>
   </a>
 </div>

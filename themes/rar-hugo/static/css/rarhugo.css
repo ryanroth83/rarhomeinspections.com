@@ -17,14 +17,13 @@
 
 html, body {
     margin              : 0;
-    padding             : 0;
+    padding-left        : 10%;
+    padding-right       : 10%;
     font-family         : Arimo100;
     font-size           : 18px;
     color               : #E5E4E2;
     line-height         : 200%;
     background-color    : #000000;
-    width               : 100vw;
-    max-width           : 100vw;
     overflow-x          : hidden;
     height              : 100%;
 }
@@ -265,16 +264,6 @@ ul{
 
 }
 
-/******************highlight.js override*************/
-.hljs {
-	width               :900px;
-	border-radius       :10px;
-}
-
-pre {
-	background:#0b090a !important;
-}
-
 .Site {
     display: flex;
     min-height: 100vh;
@@ -313,4 +302,20 @@ pre {
 
   .flex-credentials > * {
     text-align: center;
+  }
+
+  /* REMOVE PADDING ON SMALL SCREENS */
+@media screen and (max-width: 600px) {
+
+    html, body {
+        padding-left        : 0%;
+        padding-right       : 0%;
+    }
+}
+  
+  /* RETURN PADDING ON LARGE SCREEN */
+  @media screen and (min-width: 600px) {
+    html, body {
+        padding-left        : 8%;
+        padding-right       : 8%;
   }
