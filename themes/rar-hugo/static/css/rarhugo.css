@@ -100,7 +100,11 @@ small > a:hover {
 
 .em {
     font-size   : 18px;
-} 
+}
+
+.em > p {
+    margin: 0%;
+}
 
 footer {
     display         : inline-flex;
