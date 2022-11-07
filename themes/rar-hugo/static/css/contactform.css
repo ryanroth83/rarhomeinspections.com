@@ -80,8 +80,8 @@
     width: 100px;
   }
 
-.contact_text {
-  text-align: center;
-  font-size: 3vw;
-  color: #f2f2f2;
-}
+  .contact_text {
+    text-align: center;
+    font-size: 3vw;
+    color: #f2f2f2;
+  }
