@@ -305,7 +305,7 @@ ul{
   }
 
   /* REMOVE PADDING ON SMALL SCREENS */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 750px) {
 
     html, body {
         padding-left        : 0%;
@@ -314,7 +314,7 @@ ul{
 }
   
   /* RETURN PADDING ON LARGE SCREEN */
-  @media screen and (min-width: 600px) {
+  @media screen and (min-width: 750px) {
     html, body {
         padding-left        : 8%;
         padding-right       : 8%;
