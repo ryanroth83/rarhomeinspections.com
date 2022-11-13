@@ -4,7 +4,7 @@ date: 2022-05-14T20:11:05-05:00
 draft: false
 ---
 <br>
-<div class="flex-credentials credentials">
+<div class="flex-credentials">
   <div>
     <img src="/certs/internachi.png" alt="InterNACHI" style="width:80%;">
   </div>
