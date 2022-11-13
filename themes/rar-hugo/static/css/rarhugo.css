@@ -302,11 +302,13 @@ ul{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    
   }
 
-  .flex-credentials > * {
-    text-align: center;
+  .credentials {
+    width: 50%;
   }
+
 
   /* REMOVE PADDING ON SMALL SCREENS */
 @media screen and (max-width: 750px) {
