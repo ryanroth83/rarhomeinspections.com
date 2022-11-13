@@ -6,13 +6,16 @@ draft: false
 <br>
 <div class="flex-credentials">
   <div>
-    <img src="/certs/internachi.png" alt="InterNACHI" style="width:80%;">
-  </div>
-  <div>
     <img src="/certs/trec_license.png" alt="TREC License" style="width:80%;">
   </div>
+</div>
+
+<div class="flex-credentials">
   <div>
-      <img src="/certs/cpi.png" alt="TREC License" style="width:80%;">
+    <img src="/certs/internachi.png" alt="InterNACHI" style="width:70%;">
+  </div>
+  <div>
+      <img src="/certs/cpi.png" alt="TREC License" style="width:70%;">
   </div>
 </div>
 
@@ -71,9 +74,14 @@ draft: false
   <div>
     <img src="/certs/11month.png" alt="11 Month Inspector" style="width:50%;">
   </div>
-    <div>
-      <img src="/certs/annual.png" alt="Annual Inspector" style="width:50%;">
+  <div>
+    <img src="/certs/annual.png" alt="Annual Inspector" style="width:50%;">
   </div>
 </div>
-
+<br>
+<div class="flex-credentials">
+  <div>
+    <img src="/certs/buy_back.png" alt="Buy Back Guarantee" style="width:60%;">
+  </div>
+</div>
 
