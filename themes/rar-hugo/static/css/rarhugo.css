@@ -272,43 +272,42 @@ ul{
     display: flex;
     min-height: 100vh;
     flex-direction: column;
-  }
+}
   
 .Site-content {
     flex: 1;
-  }
+}
  
-  .flex-contact {
-    display: flex;
+.flex-contact {
+  	display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-  }
+}
 
-  .flex-contact > * {
+.flex-contact > * {
     text-align: center;
-  }
+}
   
-  a:link {
-      text-decoration: none;
-  }
+a:link {
+    text-decoration: none;
+}
 
-  .flex-message {
+.flex-message {
     display: flex;
     flex-direction: column;
     justify-content: stretch;
-  }
+}
 
-  .flex-credentials {
+.flex-credentials {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    align-items: center;
-    
-  }
+    align-items: flex-end;
+}
 
-  .credentials {
+.credentials {
     width: 50%;
-  }
+}
 
 
   /* REMOVE PADDING ON SMALL SCREENS */
