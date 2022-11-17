@@ -63,6 +63,11 @@ img {
     max-width: 100%;
 }
 
+link {
+	text-decoration: underline;
+	color: #002868;
+}
+
 h1 > a {
     color                   : #E5E4E2;
     text-decoration         : none; 
