@@ -11,7 +11,7 @@ draft: false
 The website is still under construction and I'm doing all the work myself, so please be patient. If you have any trouble using the scheduler or just need to contact me, feel free to text or call me at <a href="tel:+1 (832)933-1111">832-933-1111</a>.
 
 
-### All  Real Estate inspections include:
+# All  Real Estate inspections include:
 - TREC Licensed, interNACHI Certified & Insured Inspector
 
 - interNACHI Buy Back Guarantee 
