@@ -4,15 +4,13 @@ date: 2022-05-14T20:11:05-05:00
 draft: false
 ---
 <br>
-<div class="flex-credentials">
-  <div>
-    <img src="/certs/trec_license.png" alt="TREC License" style="width:80%;">
-  </div>
-</div>
 
 <div class="flex-credentials">
   <div>
     <img src="/certs/internachi.png" alt="InterNACHI" style="width:70%;">
+  </div>
+    <div>
+    <img src="/certs/trec_license.png" alt="TREC License" style="width:80%;">
   </div>
   <div>
       <img src="/certs/cpi.png" alt="TREC License" style="width:70%;">
@@ -79,9 +77,3 @@ draft: false
   </div>
 </div>
 <br>
-<div class="flex-credentials">
-  <div>
-    <img src="/certs/buy_back.png" alt="Buy Back Guarantee" style="width:60%;">
-  </div>
-</div>
-

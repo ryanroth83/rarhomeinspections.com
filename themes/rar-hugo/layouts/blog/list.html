@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <html>
   {{ partial "head.html" . }}
-  <body class="Site">
+  <body class="site">
       {{ partial "header.html" . }}
       {{ partial "navbar.html" . }}
-    <main class="Site-content">
-      <div class="content">
+    <main class="site-content">
+      <div class="blog-content">
         {{ range .Paginator.Pages }}
             <article>
-      <h3><span class="listarrow">&#10132; <a href="{{ .RelPermalink }}">{{ .Title }}</a><span></h3>
-                <div class="less">
+      <h3><span class="list-arrow">&#10132; <a href="{{ .RelPermalink }}">{{ .Title }}</a><span></h3>
+                <div class="blog-less">
                     <time>Published: {{ .PublishDate.Format "Monday, Jan 2, 2006" }}</time>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;{{ .ReadingTime }} minute read
                 </div>
-                <div class="em">{{ .Summary }}</div>
+                <div class="blog-content">{{ .Summary }}</div>
                 {{ if .Truncated }}
                 <small><a href="{{ .RelPermalink }}">Read More &gt;&gt;</a></small>
                 {{ else }}
@@ -21,7 +21,7 @@
             <article>
         {{ end }}
        
-        <div class="pages">
+        <div class="blog-pages">
             {{ if .Paginator.HasPrev }}
             <a href="{{ .Paginator.Prev.URL }}">&lt;&lt; Previous </a>&nbsp;|&nbsp;
             {{ end }}

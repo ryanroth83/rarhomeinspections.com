@@ -1,17 +1,17 @@
 <!DOCTYPE html>
 <html>
   {{ partial "head.html" . }}
-  <body class="Site">
+  <body class="site">
       {{ partial "header.html" . }}
       {{ partial "navbar.html" . }}
-    <main class="Site-content">
-      <div class="content">
-        <h3><span class="listarrow">&#10132; <a href="{{ .RelPermalink }}">{{ .Title }}</a><span></h3>
-        <div class="less">
+    <main class="site-content">
+      <div class="blog-content">
+        <a class="back-arrow" href="/blog"><i class="fa-solid fa-left-long"></i></a>
+        <h3><span class="list-arrow">&#10132; <a href="{{ .RelPermalink }}">{{ .Title }}</a><span></h3>
+        <div class="blog-less">
             <time>Published: {{ .PublishDate.Format "Monday, Jan 2, 2006" }}</time>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;{{ .ReadingTime }} minute read
         </div>
-        <div class="em">{{ .Content }}</div>
-        <a class="backarrow" href="/blog">&#8617;</a>
+        <div class="blog-content">{{ .Content }}</div>
       </div>
     </main>
       {{ partial "footer.html" . }}

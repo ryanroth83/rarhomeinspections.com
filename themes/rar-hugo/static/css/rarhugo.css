@@ -1,148 +1,140 @@
 @font-face {
-    font-family         : Arimo100;
-    src                 : url('../fonts/Arimo-Regular.ttf') format("truetype");
-}
-@font-face {
-    font-family         : Arimo300;
-    src                 : url('../fonts/Arimo-Regular.ttf') format("truetype");
-}
-@font-face {
-    font-family         : Arimo300-Italic;
-    src                 : url('../fonts/Arimo-Italic.ttf') format("truetype");
-}
-@font-face {
-    font-family         : Arimo500;
-    src                 : url('../fonts/Arimo-Regular.ttf') format("truetype");
+    font-family: Arimo100;
+    src: url('../fonts/Arimo-Regular.ttf') format("truetype");
 }
 
-html, body {
-    margin              : 0;
-    padding-left        : 10%;
-    padding-right       : 10%;
-    font-family         : Arimo100;
-    font-size           : 18px;
-    color               : #E5E4E2;
-    line-height         : 200%;
-    background-color    : #000000;
-    overflow-x          : hidden;
-    height              : 100%;
+@font-face {
+    font-family: Arimo300;
+    src: url('../fonts/Arimo-Regular.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: Arimo300-Italic;
+    src: url('../fonts/Arimo-Italic.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: Arimo500;
+    src: url('../fonts/Arimo-Regular.ttf') format("truetype");
+}
+
+html,
+body {
+    margin: 0;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-family: Arimo100;
+    font-size: 18px;
+    color: #E5E4E2;
+    line-height: 200%;
+    background-color: #000000;
+    overflow-x: hidden;
+    height: 100%;
 }
 
 body {
     display: flex;
     flex-direction: column;
-  }
+}
 
 hr {
     width: 100%;
 }
 
 h1 {
-    font-family         : Arimo500;
-    font-size           : 30px;
-    color	:#BF0D3E
+    font-family: Arimo500;
+    font-size: 30px;
+    color: #BF0D3E
 }
 
 h3 {
-    margin      :0;
-    padding     :0;
-    font-family :Arimo300;
-    font-size   :22px;
+    margin: 0;
+    padding: 0;
+    font-family: Arimo300;
+    font-size: 22px;
 }
 
-h3 > .listarrow {
-	color	:#BF0D3E;
-    display:block;
+h3>.list-arrow {
+    color: #BF0D3E;
+    display: block;
 }
 
-a {
-   	text-decoration: underline;
-	color: #002868;
+ul {
+    content: "\2794";
+}
+
+a:link {
+    text-decoration: none;
+    color: currentColor;
+}
+
+a:hover {
+    color: #BF0D3E;
 }
 
 img {
     max-width: 100%;
 }
 
-
-h1 > a {
-    color                   : #E5E4E2;
-    text-decoration         : none; 
+h1>a {
+    color: #E5E4E2;
+    text-decoration: none;
 }
 
-
-h3 > span > a {
-	padding					:6px 8px;
-    color                   :#E5E4E2;
-    text-decoration         :none;
-	text-underline-offset	:3px;
-    text-decoration-color   : #BF0D3E;
-    -webkit-text-decoration-color   : #BF0D3E;
+h3>span>a {
+    padding: 6px 8px;
+    color: #E5E4E2;
+    text-decoration: none;
+    text-underline-offset: 3px;
+    text-decoration-color: #BF0D3E;
 }
 
-h3 > span > a:hover {
-    background-color:#BF0D3E;
-	color			:#fff;
-}
-
-small > a{
-    display         : inline-flex;
-    width           : 100%;
-    justify-content :flex-end;
-    text-align      : right;
-    font-size       : 16px;
-    color           : #BF0D3E;
-    text-decoration : none;
-}
-
-small > a:hover {
-    color           : #BF0D3E;
-    background-color: #000;
-}
-
-.em {
-    font-size   : 18px;
-}
-
-.em > p {
-    margin: 0%;
+h3>span>a:hover {
+    background-color: #BF0D3E;
+    color: #fff;
 }
 
 footer {
-    display         : inline-flex;
-    justify-content : center;
-    padding         : 8px 0;
-    width           : 100%;
-    font-family     : Arimo300;
-    font-size       : 16px;
-    color           : #E5E4E2;
+    display: inline-flex;
+    justify-content: center;
+    padding: 8px 0;
+    width: 100%;
+    font-family: Arimo300;
+    font-size: 16px;
+    color: #E5E4E2;
+}
+
+.line-dotted {
+    margin: 30px 0 10px;
+    width: 100%;
+    height: 1px;
+    border-bottom: 1px dashed #333;
 }
 
 iframe {
-    margin:auto;
-    display:block;
+    margin: auto;
+    display: block;
 }
 
-.backarrow {
-    color           : #BF0D3E;
-    text-decoration : none; 
-    float: right;
-    padding-right: 20px;
-    padding-top: 10px;
-    font-size: 35px;
-    font-weight: bold;
+.iframe-schedule {
+    position: relative;
+    height: 700px;
+    width: 100%;
+    z-index: 10;
 }
 
-.flex-column {
-    display         : -webkit-flex;
-    display         : flex;
-    flex-direction  : row;
-    flex-wrap       : nowrap;
-    justify-content : center;
+.site {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.site-content {
+    flex: 1;
 }
 
 .home {
-    flex-basis  : 60%;
+    flex-basis: 60%;
 }
 
 .logo {
@@ -154,144 +146,55 @@ iframe {
     max-width: 90vw;
 }
 
-
-.less {
-    color       : #495057;
-    font-size   : 16px;
-}
-.pages {
-    padding     : 30px 0 10px;
-    font-size   : 18px;
-    color       : #6c757d;
-}
-.pages > a {
-    color           : #BF0D3E;
+.blog-content {
+    font-size: 18px;
 }
 
-.pagelink {
-    color       : #6c757d;
+.blog-content>p {
+    margin: 0%;
 }
 
-.line-dotted {
-    margin          : 30px 0 10px;
-    width           : 100%;
-    height          : 1px;
-    border-bottom   : 1px dashed #333;
+.blog-less {
+    color: #495057;
+    font-size: 16px;
 }
 
-
-/* Taxonomy */
-ul{
-	margin: 0;
-	padding: 0;
-}
-.tag-single {
-    margin:0;
-    padding:0;
-	display:flex;
-	flex-direction:row;
-}
-.tag-single > ul{
-	margin: 0;
-	padding: 0;
-}
-.tag-single > ul > li{
-	margin:0 6px 0 0;
-	padding: 0 20px;
-	line-height:26px;
-    list-style-type: none;
-	display:inline-flex;
-    font-size: 13px;
-    border: 1px solid rgba(49, 50, 57, 0.6);
-	border-radius       :13px;
-    text-align: center;
-	background-color: rgba(49, 50, 57, 0.3);
-}
-.tag-single > ul > li > a {
-	text-decoration : none;
-	color:#E5E4E2;
-}
-.redot {
-	padding: 3px 10px;
-	background-color:#BF0D3E;
-	font-size:13px;
-	color:#FFF;
-	border-radius       :6px;
+.blog-pages {
+    padding: 30px 0 10px;
+    font-size: 18px;
+    color: #6c757d;
 }
 
-.tag {
-	margin:10px;
-	padding:0 20px;
-	display: inline-flex;
-	flex-direction: row;
-	border: 1px solid rgba(49, 50, 57, 0.6);
-	border-radius       :13px;
-	text-align: center;
-	background-color: rgba(49, 50, 57, 0.3);
-}
-.tag > a {
-	text-decoration : none;
-	color:#E5E4E2;
+.blog-pages>a {
+    color: #BF0D3E;
 }
 
-.nttfound {
-	display: flex;
-	flex-direction: column;
-}
-.nttfound > h1 {
-	font-size	:128px;
-	align-self:center;
-}
-.nttfound > h2, .nttfound > h3 {
-	align-self:center;
-}
-.gohome {
-	margin: 30px 0 90px;
-	padding: 6px 32px;
-	background-color: #BF0D3E;
-	color: #FFF;
-	align-self:center;
-	border-radius  :18px;
-	text-decoration : none;
-}
-
-.iframeSchedule {
-    position: relative;
-    height: 700px;
-    width: 100%;
-    z-index: 10;
-}
-
-.blogPost {
-    display: block;
+.back-arrow {
+    color: #BF0D3E;
     text-decoration: none;
-    padding: 0px;
-    margin-bottom: 0px;
-
+    float: right;
+    padding-right: 20px;
+    padding-top: 20px;
+    font-size: 50px;
+    font-weight: bold;
 }
 
-.Site {
+.flex-column {
+    display: -webkit-flex;
     display: flex;
-    min-height: 100vh;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
 }
-  
-.Site-content {
-    flex: 1;
-}
- 
+
 .flex-contact {
-  	display: flex;
+    display: flex;
     flex-direction: row;
     justify-content: space-evenly;
 }
 
-.flex-contact > * {
+.flex-contact>* {
     text-align: center;
-}
-  
-a:link {
-    text-decoration: none;
 }
 
 .flex-message {
@@ -304,27 +207,28 @@ a:link {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    align-items: flex-end;
 }
 
 .credentials {
     width: 50%;
 }
 
-
-  /* REMOVE PADDING ON SMALL SCREENS */
+/* REMOVE PADDING ON SMALL SCREENS */
 @media screen and (max-width: 750px) {
 
-    html, body {
-        padding-left        : 0%;
-        padding-right       : 0%;
+    html,
+    body {
+        padding-left: 0%;
+        padding-right: 0%;
     }
 }
-  
-  /* RETURN PADDING ON LARGE SCREEN */
-  @media screen and (min-width: 750px) {
-    html, body {
-        padding-left        : 8%;
-        padding-right       : 8%;
-  }
+
+/* RETURN PADDING ON LARGE SCREEN */
+@media screen and (min-width: 750px) {
+
+    html,
+    body {
+        padding-left: 8%;
+        padding-right: 8%;
+    }
 }
