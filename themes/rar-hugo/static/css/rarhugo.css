@@ -60,9 +60,8 @@ h3>.list-arrow {
 }
 
 ul {
-    content: "\2794";
+  list-style-image: url('/icons/ARROW_RIGHT.svg');
 }
-
 a:link {
     text-decoration: none;
     color: currentColor;
