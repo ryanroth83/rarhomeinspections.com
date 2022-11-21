@@ -16,9 +16,9 @@ The website is still under construction and I'm doing all the work myself, so pl
 
 - 90 Day Buy Back Guarantee Backed By interNACHI 
 
-- Easy to read & share web report, in additon to the TREC required REI 7-6
+- Easy to read & share web report, & TREC required REI 7-6 report
 
-- Drone Inspection By A FAA licensed, Insured & interNACHI Certified Drone Operator <span class="hover grow" onclick="alertDrone()"><sup>[1]</sup></span>
+- Drone Inspection. FAA licensed, Insured & interNACHI drone Certified<span class="hover grow" onclick="alertDrone()"><sup>[1]</sup></span>
 
 - Thermal Imaging on select systems by an infrared certified inspector <span class=hover onclick="alertThermalImaging()"><sup>[2]</sup></span>
 
