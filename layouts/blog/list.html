@@ -1,13 +1,17 @@
 {{ define "main" }}
-<div class="blog-content">
+
   {{ range .Paginator.Pages }}
-    <article>
-      <h3><span class="list-arrow">&#10132; <a href="{{ .RelPermalink }}">{{ .Title }}</a><span></h3>
-      <div class="blog-less">
+    <article class="blog-article">
+      <h3><span class="list-arrow_right"></span>
+        <span>
+          <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+        <span>
+      </h3>
+    <div class="blog-less">
         <time>Published: {{ .PublishDate.Format "Monday, Jan 2, 2006" }}</time>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;{{ .ReadingTime }} minute read
       </div>
       <div class="blog-content">
-        {{ .Summary }}
+        <p>{{ .Summary }}</p>
       </div>
       {{ if .Truncated }}
         <small><a href="{{ .RelPermalink }}">Read More &gt;&gt;</a></small>
@@ -25,5 +29,5 @@
         <a href="{{ .Paginator.Next.URL }}">Next &gt;&gt;</a>
       {{ end }}
     </div>
-</div>
+
 {{ end }}
