@@ -6,27 +6,27 @@ draft: false
 <br>
 <div>
   <div class="flex-contact">
-    <div>
+    <div class="icon-contact icon-call">
       <a href="tel:+1 (832)933-1111">
-        <i class="fa-solid fa-phone fa-4x" style="color:#32c95a;"></i>
+        <i class="fa-solid fa-phone fa-4x"></i>
         <p>Call Me</p>
       </a>
     </div>
-    <div>
+    <div class="icon-contact icon-sms">
       <a href="sms:+1 (832)933-1111">
-        <i class="fa-solid fa-comment-sms fa-4x" style="color:#2790ff;"></i>
+        <i class="fa-solid fa-comment-sms fa-4x"></i>
         <p>Text Me</p>
       </a>
     </div>
-    <div>
+    <div class="icon-contact icon-email">
       <a href="mailto:ryan@rarhomeinspections.com">
-        <i class="fa-solid fa-at fa-4x" style="color:LightSteelBlue;"></i>
+        <i class="fa-solid fa-at fa-4x"></i>
         <p>Email Me</p>
       </a>
     </div>
-    <div>
+    <div class="icon-contact icon-addme">
       <a href="/rarhomeinspections.vcf">
-        <i class="fa-solid fa-address-card fa-4x" style="color:tan"></i>
+        <i class="fa-solid fa-address-card fa-4x"></i>
         <p>Add Me</p>
       </a>
     </div>
@@ -57,7 +57,7 @@ draft: false
         </li>
         <li>
           <label for="response">Response</label>
-          <select name="response" id="response" required>
+          <select name="response" style="cursor:pointer;" id="response" required>
           <option value="any">Any</option>
           <option value="call">Call</option>
           <option value="text">Text</option>
@@ -66,7 +66,7 @@ draft: false
         </li>
   </select>
         <li>
-          <button type="submit">Submit</button>
+          <button style="cursor:pointer;" type="submit">Submit</button>
         </li>
       </ul>
     </form>

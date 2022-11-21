@@ -14,28 +14,47 @@ The website is still under construction and I'm doing all the work myself, so pl
 # All  Real Estate inspections include:
 - TREC Licensed, interNACHI Certified & Insured Inspector
 
-- interNACHI Buy Back Guarantee 
+- 90 Day Buy Back Guarantee Backed By interNACHI 
 
-- Easy to read & share web reports, as well as a PDF of the TREC required REI 7-6 form
+- Easy to read & share web report, in additon to the TREC required REI 7-6
 
-- Drone inspection by a FAA licensed, insured & interNACHI Certified Drone Operator<sup>1</sup>
+- Drone Inspection By A FAA licensed, Insured & interNACHI Certified Drone Operator <span class="hover grow" onclick="alertDrone()"><sup>[1]</sup></span>
 
-- Thermal Imaging on select systems by an infrared certified inspector<sup>2</sup>
+- Thermal Imaging on select systems by an infrared certified inspector <span class=hover onclick="alertThermalImaging()"><sup>[2]</sup></span>
 
-- One on one walk through of the property to ask questions and get explanations on the inspection findings<sup>3</sup>
+- One on one walk through of the property <span class=hover onclick="alertWalkThrough()"><sup>[3]</sup></span>
 
+<br>
 
+<div class=button-flex>
+  <div>
+    <a href="/schedule">
+      <button class="button button-schedule grow">Schedule Now</button>
+    </a>
+  </div>
+  <div>
+    &nbsp;
+    &nbsp;
+  </div>
+  <div>
+    <a href="/contact">
+      <button class="button button-contact grow" >Contact Me</button>
+    </a>
+  </div>
+</div>
 
-<sup>1</sup>
-<small>
-Drone may not be used in poor weather conditions or of airspace is restricted. On roof inspection may be performed in Lou of ￼drone inspection at the inspectors discretion.
-</small>
+<script>
 
+  function alertDrone() {
+    alert("Drone usage depends on weather conditions & airspace restrictions. On roof inspections may be done in lieu of drone usage, at the discretion of the inspectior.");
+  }
+  
+  function alertThermalImaging() {
+    alert("Thermal imaging is only effective if temperature differentials are present, current weather or HVAC conditions may limit functionality.");
+  }
+  
+  function alertWalkThrough() {
+    alert("Must be present on the property at the end of scheduled inspection time.");
+  }
 
-<sup>2</sup>
-<small>Thermal imaging is only effective if temperature differentials are present, current weather or HVAC conditions may limit functionality.
-</small>
-
-<sup>3</sup>
-<small>Must be present on the property at the end of scheduled inspection time.
-</small>
+</script>

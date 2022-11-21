@@ -44,7 +44,8 @@ hr {
 h1 {
     font-family: Arimo500;
     font-size: 30px;
-    color: #BF0D3E
+    color: #BF0D3E;
+    text-transform: capitalize;
 }
 
 h3 {
@@ -62,6 +63,11 @@ h3>.list-arrow {
 ul {
   list-style-image: url('/icons/ARROW_RIGHT.svg');
 }
+
+li {
+    text-transform: capitalize
+}
+
 a:link {
     text-decoration: none;
     color: currentColor;
@@ -69,6 +75,44 @@ a:link {
 
 a:hover {
     color: #BF0D3E;
+}
+
+.hover:hover {
+    color: #BF0D3E;
+    cursor: pointer;
+}
+
+.grow { transition: all .2s ease-in-out; }
+
+.grow:hover { transform: scale(1.1); }
+
+.icon-contact {
+    text-decoration: none;
+}
+
+.icon-contact:hover {
+    transition: all .2s ease-in-out;
+    transform: scale(1.1);
+}
+
+.icon-contact>a:hover {
+    color: currentColor;
+}
+
+.icon-call {
+    color:#32c95a;
+}
+
+.icon-sms {
+    color:#2790ff;
+}
+
+.icon-email {
+    color:#6c757d;
+}
+
+.icon-addme {
+    color:tan;
 }
 
 img {
@@ -210,6 +254,31 @@ iframe {
 
 .credentials {
     width: 50%;
+}
+
+.button-flex {
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.button-schedule {
+    background-color: #3f51b5;
+}
+
+.button-contact {
+    background-color: #32c95a;
 }
 
 /* REMOVE PADDING ON SMALL SCREENS */
