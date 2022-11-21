@@ -25,7 +25,6 @@ body {
     color: #E5E4E2;
     line-height: 100%;
     background-color: #000000;
-    overflow-x: hidden;
     height: 100%;
 }
 
@@ -38,12 +37,17 @@ hr {
     width: 100%;
 }
 
+p {
+    margin: 16px;
+}
+
 h1 {
     font-family: Arimo500;
     font-size: 30px;
     color: #BF0D3E;
     text-transform: capitalize;
-    margin: 0%;
+    margin: 16px;
+    line-height: 1.5;
 }
 
 h1>a {
@@ -52,11 +56,11 @@ h1>a {
 }
 
 h3 {
-    margin: 0;
-    padding: 0;
     font-family: Arimo300;
     font-size: 22px;
     line-height: 200%;
+    padding: .5em, 0em;
+    margin: 16px;
 }
 
 h3>.list-arrow {
@@ -77,13 +81,12 @@ h3>span>a:hover {
     color: #fff;
 }
 
-p {
-
-}
 
 ul {
     list-style-type: none;
-  }
+    padding-left: 40px;
+    margin-top: 0px;
+}
 
 ul p:before {
     content: '';
@@ -98,8 +101,7 @@ ul p:before {
   }
 
 li {
-    text-transform: capitalize;
-    margin: 0%;
+    text-transform: capitalize;   
 }
 
 a:link {
@@ -298,8 +300,7 @@ iframe {
 }
 
 /* REMOVE PADDING ON SMALL SCREENS */
-@media screen and (max-width: 750px) {
-
+@media screen and (max-width: 980px) {
     html,
     body {
         padding-left: 0%;
@@ -307,12 +308,38 @@ iframe {
     }
 }
 
+
+@media screen and (max-width: 700px) {
+    ul {
+        padding-left: 0px;
+    }
+}
+
+
 /* RETURN PADDING ON LARGE SCREEN */
-@media screen and (min-width: 750px) {
+@media screen and (min-width: 980px) {
 
     html,
     body {
         padding-left: 8%;
         padding-right: 8%;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+
+    html,
+    body {
+        padding-left: 12%;
+        padding-right: 12%;
+    }
+}
+
+@media screen and (min-width: 1500px) {
+
+    html,
+    body {
+        padding-left: 15%;
+        padding-right: 15%;
     }
 }

@@ -1,27 +1,29 @@
 {{ define "main" }}
-{{ range .Paginator.Pages }}
-  <article>
-    <h3><span class="list-arrow">&#10132; <a href="{{ .RelPermalink }}">{{ .Title }}</a><span></h3>
-    <div class="blog-less">
-      <time>Published: {{ .PublishDate.Format "Monday, Jan 2, 2006" }}</time>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;{{ .ReadingTime }} minute read
+<div class="blog-content">
+  {{ range .Paginator.Pages }}
+    <article>
+      <h3><span class="list-arrow">&#10132; <a href="{{ .RelPermalink }}">{{ .Title }}</a><span></h3>
+      <div class="blog-less">
+        <time>Published: {{ .PublishDate.Format "Monday, Jan 2, 2006" }}</time>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;{{ .ReadingTime }} minute read
+      </div>
+      <div class="blog-content">
+        {{ .Summary }}
+      </div>
+      {{ if .Truncated }}
+        <small><a href="{{ .RelPermalink }}">Read More &gt;&gt;</a></small>
+      {{ else }}
+        <small><a href="javascript:;"></a></small>
+      {{ end }}
+    <article>
+  {{ end }}
+    <div class="blog-pages">
+      {{ if .Paginator.HasPrev }}
+        <a href="{{ .Paginator.Prev.URL }}">&lt;&lt; Previous </a>&nbsp;|&nbsp;
+      {{ end }}
+      Page {{ .Paginator.PageNumber }} of {{ .Paginator.TotalPages }} 
+      {{ if .Paginator.HasNext }}&nbsp;|&nbsp;
+        <a href="{{ .Paginator.Next.URL }}">Next &gt;&gt;</a>
+      {{ end }}
     </div>
-    <div class="blog-content">
-      {{ .Summary }}
-    </div>
-    {{ if .Truncated }}
-      <small><a href="{{ .RelPermalink }}">Read More &gt;&gt;</a></small>
-    {{ else }}
-      <small><a href="javascript:;"></a></small>
-    {{ end }}
-  <article>
-{{ end }}
-  <div class="blog-pages">
-    {{ if .Paginator.HasPrev }}
-      <a href="{{ .Paginator.Prev.URL }}">&lt;&lt; Previous </a>&nbsp;|&nbsp;
-    {{ end }}
-    Page {{ .Paginator.PageNumber }} of {{ .Paginator.TotalPages }} 
-    {{ if .Paginator.HasNext }}&nbsp;|&nbsp;
-      <a href="{{ .Paginator.Next.URL }}">Next &gt;&gt;</a>
-    {{ end }}
-  </div>
+</div>
 {{ end }}
