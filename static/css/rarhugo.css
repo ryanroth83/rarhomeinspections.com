@@ -58,8 +58,8 @@ h1>a {
 h3 {
     font-family: Arimo300;
     font-size: 22px;
-    line-height: 200%;
-    margin: 16px;
+    margin: 0px;
+    padding: 0px;
 }
 
 h3>.list-arrow_right {
