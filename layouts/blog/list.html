@@ -7,7 +7,7 @@
           <a href="{{ .RelPermalink }}">{{ .Title }}</a>
         <span>
       </h3>
-    <div class="blog-less">
+      <div class="blog-less">
         <time>Published: {{ .PublishDate.Format "Monday, Jan 2, 2006" }}</time>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;{{ .ReadingTime }} minute read
       </div>
       <div class="blog-content">
@@ -29,5 +29,5 @@
         <a href="{{ .Paginator.Next.URL }}">Next &gt;&gt;</a>
       {{ end }}
     </div>
-
+</div>
 {{ end }}
