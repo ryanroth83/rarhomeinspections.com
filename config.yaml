@@ -1,8 +1,9 @@
-baseURL: https://rar-hugo.pages.dev
+baseURL: https://rarhomeinspections.com
 languageCode: en-us
 title: RAR Home Inspections
 copyright: RAR of Texas 2022
 paginate: 3
+summaryLength: 40
 googleAnalytics: G-6LX0S4DQ81
 
 markup:

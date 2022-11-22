@@ -1,5 +1,5 @@
 ---
-title: "Orgin of the name & logo"
+title: "name & logo"
 date: 2022-10-21
 draft: false
 ---
