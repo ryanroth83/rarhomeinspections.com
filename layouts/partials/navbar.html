@@ -13,27 +13,27 @@
         <a href="javascript:void(0);" class="current">{{ .Title }}</a>
       {{ end }}
     {{ end }}
+   <!-- SMALL SCREEN DROPDOWN HAMBURGER NAV MENU -->
     <div class="burger_flex">
       <div class="burger_btn" id="burger_btn_id">
         <i onclick="menuFunction()" class="fa-solid fa-bars" id="burger_icon"></i>
       </div>
     </div>
   </div>
-   <!-- SMALL SCREEN DROPDOWN HAMBURGER NAV MENU -->
-    <span class="resmenu hidden" id="resmenu_id">
-      {{ $inNav := 0 }}
-      {{ $currentPage := .RelPermalink }}
-      {{ if .Site.Menus.nav }}
-        {{ range sort .Site.Menus.nav "Weight" "asc" }}
-        <a href="{{ .URL }}" class="{{ if eq $currentPage .URL }} {{ $inNav = 1 }}current{{ end}}">{{ .Name }}</a>
-        {{ end }}
-        {{ if eq $inNav 0 }}
-          <a href="javascript:void(0);" class="current">{{ .Title }}</a>
-        {{ end }}
+  <span class="resmenu hidden" id="resmenu_id">
+    {{ $inNav := 0 }}
+    {{ $currentPage := .RelPermalink }}
+    {{ if .Site.Menus.nav }}
+      {{ range sort .Site.Menus.nav "Weight" "asc" }}
+      <a href="{{ .URL }}" class="{{ if eq $currentPage .URL }} {{ $inNav = 1 }}current{{ end}}">{{ .Name }}</a>
       {{ end }}
-    </span>
+      {{ if eq $inNav 0 }}
+        <a href="javascript:void(0);" class="current">{{ .Title }}</a>
+      {{ end }}
+    {{ end }}
+  </span>
+  <!-- END SMALL SCREEN DROPDOWN HAMBURGER NAV MENU -->
 </nav>
-
 <script>
   function menuFunction() {
     var resmenu = document.getElementById("resmenu_id");
