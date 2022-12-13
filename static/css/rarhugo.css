@@ -130,6 +130,10 @@ a:hover {
     cursor: pointer;
 }
 
+a:visited {
+    color: currentColor;
+  }
+
 .grow { transition: all .2s ease-in-out; }
 
 .grow:hover { transform: scale(1.1); }
@@ -153,6 +157,10 @@ a:hover {
 
 .icon-sms {
     color:#2790ff;
+}
+
+.icon-whatsapp {
+    color:#35bf46;
 }
 
 .icon-email {

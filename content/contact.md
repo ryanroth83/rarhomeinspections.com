@@ -8,19 +8,25 @@ draft: false
   <div class="flex-contact">
     <div class="icon-contact icon-call">
       <a href="tel:+1 (832)933-1111">
-        <i class="fa-solid fa-phone fa-4x"></i>
+        <i class="fa-solid fa-square-phone fa-4x"></i>
         <p>Call Me</p>
       </a>
     </div>
     <div class="icon-contact icon-sms">
       <a href="sms:+1 (832)933-1111">
-        <i class="fa-solid fa-comment-sms fa-4x"></i>
+        <i class="fa-regular fa-square-comment fa-4x"></i>
         <p>Text Me</p>
+      </a>
+    </div>
+    <div class="icon-contact icon-whatsapp">
+      <a href="https://wa.me/18329331111">
+        <i class="fa-brands fa-whatsapp fa-4x"></i>
+        <p>Whats App</p>
       </a>
     </div>
     <div class="icon-contact icon-email">
       <a href="mailto:ryan@rarhomeinspections.com">
-        <i class="fa-solid fa-at fa-4x"></i>
+        <i class="fa-regular fa-square-envelope fa-4x"></i>
         <p>Email Me</p>
       </a>
     </div>
