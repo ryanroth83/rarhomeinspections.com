@@ -211,13 +211,20 @@ iframe {
 }
 
 .logo {
-    padding-top: 20px;
+    padding-top: 0px;
     padding-right: 20px;
     padding-bottom: 0px;
     padding-left: 20px;
     max-height: 15vh;
     max-width: 90vw;
 }
+
+.slogan {
+    padding-top: 20px;
+    padding-right: 20px;
+    text-align: right;
+  }
+  
 
 .blog-list {
     font-size: 18px;
